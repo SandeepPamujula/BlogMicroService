@@ -41,7 +41,7 @@ public class AppTest {
         vertx.close(context.asyncAssertSuccess());
     }
 
-//	@Test
+	@Test
 	public void test001_validateBlogsGet() {
 		
 		String url = baseURL + "/Services/rest/blogs";
